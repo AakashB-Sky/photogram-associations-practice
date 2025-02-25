@@ -55,6 +55,7 @@ class User < ApplicationRecord
   ### Indirect associations built on scoped associations
 
   # User#followers: returns rows from the users table associated to this user through its accepted_received_follow_requests (the follow requests' senders)
+  
 
   # User#leaders: returns rows from the users table associated to this user through its accepted_sent_follow_requests (the follow requests' recipients)
 
